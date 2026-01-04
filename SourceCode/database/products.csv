@@ -1,0 +1,17 @@
+id,best_seller,category,description,disabled,discount,image,old_price,price,rating,reviews,title,ingredients,usage,nutrition
+1,t,AMINO,100% Pure Micronized - 200 Mesh,f,-30%,creatine.png,499,349,5,"(1,240 Reviews)",Creatine Monohydrate (300g),100% Micronized Creatine Monohydrate.,Mix 1 serving (5g) with 200ml water.,Creatine Monohydrate: 5000 mg | Energy: 0 kcal | Sugar: 0 g
+2,t,PROTEIN,WPC80 + WPI90 Complex,f,-19%,whey.png,1849,1499,4.5,(980 Reviews),High Pro+ Whey Protein (900g),"Whey Protein Concentrate, Isolate, Aroma.",Mix 1 scoop (30g) with 250ml water/milk after training.,Protein: 24 g | BCAA: 5.5 g | Sugar: 0.8 g | Fat: 1.2 g
+3,f,VITAMIN,Immune System Support,f,-25%,vitaminc.png,399,299,4,(450 Reviews),Vitamin C 1000mg (60 Tablets),L-Ascorbic Acid (Vitamin C).,Take 1 tablet daily with water.,Vitamin C: 1000 mg
+4,t,VITAMIN,Bone Health,f,-15%,d3k2.png,400,340,5,(620 Reviews),D3K2 Mixup Drops,"Olive Oil, Vitamin D3, Vitamin K2.",Take 1 drop daily.,Vitamin D3: 1000 IU | Vitamin K2: 20 mcg
+5,f,VITAMIN,Muscle Support,f,-25%,magnesium.png,569,429,4.5,(310 Reviews),Magnesium Bisglycinate,Magnesium Bisglycinate.,Take 2 capsules before sleep.,Magnesium: 250 mg
+6,t,VITAMIN,Heart Health,f,-16%,omega3.png,829,699,5,(890 Reviews),Omega 3 Pure (90 Softgels),"Fish Oil, Gelatin, Glycerin.",Take 2 softgels daily with meals.,EPA: 360 mg | DHA: 240 mg | Total Omega-3: 700 mg
+7,f,VITAMIN,Daily Support,f,-30%,multivitamin.png,599,419,4,(215 Reviews),Multi-Vitamin Complex,"Vitamin A, C, D, E, K, B-Complex.",Take 1 capsule with breakfast.,Vitamin A: 800 mcg | Vitamin C: 80 mg | Vitamin D: 10 mcg
+8,f,AMINO,Recovery,f,-26%,zma.png,429,319,4.5,(530 Reviews),ZMA + Vitamin B6,"Zinc, Magnesium, Vitamin B6.",Take 1 capsule 30 mins before sleep.,Zinc: 10 mg | Magnesium: 150 mg | B6: 5 mg
+9,f,AMINO,Wild Berry Flavor,f,-25%,bcaa.png,600,450,5,(340 Reviews),BCAA NRG Energy (390g),"L-Leucine, L-Isoleucine, L-Valine, Caffeine.",Mix 1 scoop (13g) with 500ml cold water.,BCAA 4:1:1: 7000 mg | Caffeine: 200 mg | Taurine: 1000 mg
+10,f,ENERGY,Energy & Focus,f,-29%,caffeine.png,350,250,4,(120 Reviews),Caffeine 200mg,Caffeine Anhydrous.,Take 1 capsule 30 mins before activity.,Caffeine: 200 mg
+11,f,VITAMIN,Heart Health,f,-22%,coenzyme.png,500,390,5,(85 Reviews),Coenzyme Q10,Coenzyme Q10 (Ubiquinone).,Take 1 capsule daily.,Coenzyme Q10: 100 mg
+12,f,ENERGY,Fat Burner,f,-29%,l-carnitine.png,450,320,4.5,(410 Reviews),L-Carnitine Tartrate,L-Carnitine Tartrate.,Take 4 capsules before workout.,L-Carnitine: 3000 mg
+13,f,VITAMIN,Iodine Drops,f,-24%,lugol.png,250,190,5,(220 Reviews),Lugols Solution,"Iodine, Potassium Iodide.",Consult your healthcare professional.,Iodine: 2%
+14,f,VITAMIN,Sleep Support,t,,melatonin.png,,0,0,(Coming Soon),Melatonin (90 Tablets),-,-,-
+15,f,VITAMIN,Advanced Formula,f,-20%,multixl.png,600,480,5,(300 Reviews),Multi-Vitamin XL,Vitamin Complex XL.,Take 1-2 capsules daily.,Vitamin C: 500 mg | Vitamin D: 25 mcg | Zinc: 15 mg
+16,f,VITAMIN,Digestive Health,f,-22%,probiotic.png,450,350,4.5,(155 Reviews),Probiotic & Prebiotic,"Probiotic Cultures, Inulin.",Take 1 sachet daily.,Probiotics: 10 Billion CFU | Inulin: 500 mg

@@ -1,0 +1,34 @@
+CREATE TABLE products (
+    id SERIAL PRIMARY KEY,
+    best_seller BOOLEAN,
+    category VARCHAR(255),
+    description TEXT,
+    disabled BOOLEAN,
+    discount VARCHAR(50),
+    image VARCHAR(255),
+    old_price NUMERIC(10, 2),
+    price NUMERIC(10, 2),
+    rating NUMERIC(3, 1),
+    reviews VARCHAR(255),
+    title VARCHAR(255),
+    ingredients TEXT,
+    usage TEXT,
+    nutrition TEXT
+);
+
+INSERT INTO products (id, best_seller, category, description, disabled, discount, image, old_price, price, rating, reviews, title, ingredients, usage, nutrition) VALUES (1, TRUE, 'AMINO', '100% Pure Micronized - 200 Mesh', FALSE, '-30%', 'creatine.png', 499.0, 349, 5.0, '(1,240 Reviews)', 'Creatine Monohydrate (300g)', '100% Micronized Creatine Monohydrate.', 'Mix 1 serving (5g) with 200ml water.', 'Creatine Monohydrate: 5000 mg | Energy: 0 kcal | Sugar: 0 g');
+INSERT INTO products (id, best_seller, category, description, disabled, discount, image, old_price, price, rating, reviews, title, ingredients, usage, nutrition) VALUES (2, TRUE, 'PROTEIN', 'WPC80 + WPI90 Complex', FALSE, '-19%', 'whey.png', 1849.0, 1499, 4.5, '(980 Reviews)', 'High Pro+ Whey Protein (900g)', 'Whey Protein Concentrate, Isolate, Aroma.', 'Mix 1 scoop (30g) with 250ml water/milk after training.', 'Protein: 24 g | BCAA: 5.5 g | Sugar: 0.8 g | Fat: 1.2 g');
+INSERT INTO products (id, best_seller, category, description, disabled, discount, image, old_price, price, rating, reviews, title, ingredients, usage, nutrition) VALUES (3, FALSE, 'VITAMIN', 'Immune System Support', FALSE, '-25%', 'vitaminc.png', 399.0, 299, 4.0, '(450 Reviews)', 'Vitamin C 1000mg (60 Tablets)', 'L-Ascorbic Acid (Vitamin C).', 'Take 1 tablet daily with water.', 'Vitamin C: 1000 mg');
+INSERT INTO products (id, best_seller, category, description, disabled, discount, image, old_price, price, rating, reviews, title, ingredients, usage, nutrition) VALUES (4, TRUE, 'VITAMIN', 'Bone Health', FALSE, '-15%', 'd3k2.png', 400.0, 340, 5.0, '(620 Reviews)', 'D3K2 Mixup Drops', 'Olive Oil, Vitamin D3, Vitamin K2.', 'Take 1 drop daily.', 'Vitamin D3: 1000 IU | Vitamin K2: 20 mcg');
+INSERT INTO products (id, best_seller, category, description, disabled, discount, image, old_price, price, rating, reviews, title, ingredients, usage, nutrition) VALUES (5, FALSE, 'VITAMIN', 'Muscle Support', FALSE, '-25%', 'magnesium.png', 569.0, 429, 4.5, '(310 Reviews)', 'Magnesium Bisglycinate', 'Magnesium Bisglycinate.', 'Take 2 capsules before sleep.', 'Magnesium: 250 mg');
+INSERT INTO products (id, best_seller, category, description, disabled, discount, image, old_price, price, rating, reviews, title, ingredients, usage, nutrition) VALUES (6, TRUE, 'VITAMIN', 'Heart Health', FALSE, '-16%', 'omega3.png', 829.0, 699, 5.0, '(890 Reviews)', 'Omega 3 Pure (90 Softgels)', 'Fish Oil, Gelatin, Glycerin.', 'Take 2 softgels daily with meals.', 'EPA: 360 mg | DHA: 240 mg | Total Omega-3: 700 mg');
+INSERT INTO products (id, best_seller, category, description, disabled, discount, image, old_price, price, rating, reviews, title, ingredients, usage, nutrition) VALUES (7, FALSE, 'VITAMIN', 'Daily Support', FALSE, '-30%', 'multivitamin.png', 599.0, 419, 4.0, '(215 Reviews)', 'Multi-Vitamin Complex', 'Vitamin A, C, D, E, K, B-Complex.', 'Take 1 capsule with breakfast.', 'Vitamin A: 800 mcg | Vitamin C: 80 mg | Vitamin D: 10 mcg');
+INSERT INTO products (id, best_seller, category, description, disabled, discount, image, old_price, price, rating, reviews, title, ingredients, usage, nutrition) VALUES (8, FALSE, 'AMINO', 'Recovery', FALSE, '-26%', 'zma.png', 429.0, 319, 4.5, '(530 Reviews)', 'ZMA + Vitamin B6', 'Zinc, Magnesium, Vitamin B6.', 'Take 1 capsule 30 mins before sleep.', 'Zinc: 10 mg | Magnesium: 150 mg | B6: 5 mg');
+INSERT INTO products (id, best_seller, category, description, disabled, discount, image, old_price, price, rating, reviews, title, ingredients, usage, nutrition) VALUES (9, FALSE, 'AMINO', 'Wild Berry Flavor', FALSE, '-25%', 'bcaa.png', 600.0, 450, 5.0, '(340 Reviews)', 'BCAA NRG Energy (390g)', 'L-Leucine, L-Isoleucine, L-Valine, Caffeine.', 'Mix 1 scoop (13g) with 500ml cold water.', 'BCAA 4:1:1: 7000 mg | Caffeine: 200 mg | Taurine: 1000 mg');
+INSERT INTO products (id, best_seller, category, description, disabled, discount, image, old_price, price, rating, reviews, title, ingredients, usage, nutrition) VALUES (10, FALSE, 'ENERGY', 'Energy & Focus', FALSE, '-29%', 'caffeine.png', 350.0, 250, 4.0, '(120 Reviews)', 'Caffeine 200mg', 'Caffeine Anhydrous.', 'Take 1 capsule 30 mins before activity.', 'Caffeine: 200 mg');
+INSERT INTO products (id, best_seller, category, description, disabled, discount, image, old_price, price, rating, reviews, title, ingredients, usage, nutrition) VALUES (11, FALSE, 'VITAMIN', 'Heart Health', FALSE, '-22%', 'coenzyme.png', 500.0, 390, 5.0, '(85 Reviews)', 'Coenzyme Q10', 'Coenzyme Q10 (Ubiquinone).', 'Take 1 capsule daily.', 'Coenzyme Q10: 100 mg');
+INSERT INTO products (id, best_seller, category, description, disabled, discount, image, old_price, price, rating, reviews, title, ingredients, usage, nutrition) VALUES (12, FALSE, 'ENERGY', 'Fat Burner', FALSE, '-29%', 'l-carnitine.png', 450.0, 320, 4.5, '(410 Reviews)', 'L-Carnitine Tartrate', 'L-Carnitine Tartrate.', 'Take 4 capsules before workout.', 'L-Carnitine: 3000 mg');
+INSERT INTO products (id, best_seller, category, description, disabled, discount, image, old_price, price, rating, reviews, title, ingredients, usage, nutrition) VALUES (13, FALSE, 'VITAMIN', 'Iodine Drops', FALSE, '-24%', 'lugol.png', 250.0, 190, 5.0, '(220 Reviews)', 'Lugols Solution', 'Iodine, Potassium Iodide.', 'Consult your healthcare professional.', 'Iodine: 2%');
+INSERT INTO products (id, best_seller, category, description, disabled, discount, image, old_price, price, rating, reviews, title, ingredients, usage, nutrition) VALUES (14, FALSE, 'VITAMIN', 'Sleep Support', TRUE, NULL, 'melatonin.png', NULL, 0, 0.0, '(Coming Soon)', 'Melatonin (90 Tablets)', '-', '-', '-');
+INSERT INTO products (id, best_seller, category, description, disabled, discount, image, old_price, price, rating, reviews, title, ingredients, usage, nutrition) VALUES (15, FALSE, 'VITAMIN', 'Advanced Formula', FALSE, '-20%', 'multixl.png', 600.0, 480, 5.0, '(300 Reviews)', 'Multi-Vitamin XL', 'Vitamin Complex XL.', 'Take 1-2 capsules daily.', 'Vitamin C: 500 mg | Vitamin D: 25 mcg | Zinc: 15 mg');
+INSERT INTO products (id, best_seller, category, description, disabled, discount, image, old_price, price, rating, reviews, title, ingredients, usage, nutrition) VALUES (16, FALSE, 'VITAMIN', 'Digestive Health', FALSE, '-22%', 'probiotic.png', 450.0, 350, 4.5, '(155 Reviews)', 'Probiotic & Prebiotic', 'Probiotic Cultures, Inulin.', 'Take 1 sachet daily.', 'Probiotics: 10 Billion CFU | Inulin: 500 mg');

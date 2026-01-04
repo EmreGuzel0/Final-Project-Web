@@ -1,0 +1,42 @@
+/* =========================================
+   GLOBAL RESET & FONT CONFIGURATION
+   ========================================= */
+
+/* 1. Font Import: Required for MUI 'Typography' consistency */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap');
+
+/* 2. Basic Box-Sizing Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 3. Global Body Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f8f9fa;
+  /* Global background color */
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  /* Smoother fonts on Webkit */
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+/* 4. Standard Link Reset */
+/* Resets default browser styles for non-MUI links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 5. React Root Layout */
+/* Ensures the footer stays at the bottom even on empty pages */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

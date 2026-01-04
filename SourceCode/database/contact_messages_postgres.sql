@@ -1,0 +1,13 @@
+-- Create the table
+CREATE TABLE contact_messages (
+    id INTEGER PRIMARY KEY,
+    email VARCHAR(255),
+    message TEXT,
+    name VARCHAR(255),
+    sent_at TIMESTAMP,
+    subject VARCHAR(255)
+);
+
+-- Insert the data
+INSERT INTO contact_messages (id, email, message, name, sent_at, subject) 
+VALUES (1, 'emre@gmail.com', '''"This was my first time ordering from your website, and I am extremely satisfied with the experience. Wishing you continued success!''"', 'Emre Güzel', '2026-01-03 15:11:48.21744', 'I wish you lots of success');
